@@ -1,5 +1,6 @@
 .intro__section {
     background: #003057;
+    padding-top: 125px;
 }
 
 .intro__container {
@@ -8,7 +9,43 @@
     height: 672px;
 }
 
-.intro__container-left {
+.intro__container-column {
     display: flex;
     flex-direction: column;
+}
+
+/* Intro Left  */
+
+.intro__container-column.intro__left {
+    margin-right: 139px;
+}
+
+.intro__h2 {
+    font: normal normal bold 40px/43px;
+    margin-bottom: 3px;
+}
+
+.intro__h3 {
+    font: normal normal bold 22px/30px DIN 2014;
+    margin-bottom: 48px;
+}
+
+.intro__container__text-container {
+    display: flex;
+    width: 597px;
+}
+
+/* Intro Right */
+.intro__container-column.intro__list-div {
+    margin-bottom: 31px;
+    width: 132px;
+    text-align: start;
+}
+
+.intro__container-column.intro__list-div :first-child {
+    font-weight: bold;
+}
+
+.intro_seal-container {
+    margin-right: 26px;
 }
