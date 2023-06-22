@@ -1,7 +1,40 @@
-.hero-section {
+.hero__section {
     background:
-        linear-gradient(rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)), url(../assets/01\ Hero/hero.jpg);
+        linear-gradient(rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2)), url(../assets/01\ Hero/hero.jpg);
     background-position: top;
     background-size: 100% 100%;
+    padding-top: 23px;
+}
+
+.hero__header {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.hero__header-menu-icon {}
+
+.hero__h1-container {
+    margin-top: 395px;
+}
+
+.hero__h1 {
+    font-size: 80px;
+}
+
+.hero__text {
+    font-size: 46px;
+}
+
+.hero__film-container {
+    display: flex;
+    align-items: center;
+    margin-top: 36px;
+}
+
+.hero__watch-the-film {
+    margin-left: 1rem;
+    font-size: 25px;
+    font-weight: bold;
 }

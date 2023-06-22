@@ -1,0 +1,14 @@
+.intro__section {
+    background: #003057;
+}
+
+.intro__container {
+    display: flex;
+    width: 973px;
+    height: 672px;
+}
+
+.intro__container-left {
+    display: flex;
+    flex-direction: column;
+}
