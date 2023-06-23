@@ -23,7 +23,9 @@ a {
     text-decoration: none;
 }
 
-body {
+body {}
+
+.wrapper {
     margin: auto;
     width: 1366px;
     height: 768px;

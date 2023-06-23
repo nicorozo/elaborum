@@ -5,11 +5,13 @@
     background-position: 894px -532.55px;
     padding-top: 125px;
     position: relative;
+    height: 881px;
+    width: 100%;
 }
 
 .intro__bg-img {
     background-image: url(/science_square/assets/lines-bottom.svg);
-    background-position: -50px 370px;
+    background-position: -120px 256px;
     background-repeat: no-repeat;
     position: absolute;
     bottom: 0;
