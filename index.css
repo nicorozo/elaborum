@@ -1,8 +1,11 @@
+@import url("https://p.typekit.net/p.css?s=1&k=gup3jih&ht=tk&f=32227.32231.32236.32238&a=87533456&app=typekit&e=css");
+
 :root {
-    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
     font-family: 'Anuphan', sans-serif;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-family: "din-2014";
+    font-weight: 100;
+    font-size: 1rem;
 
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);

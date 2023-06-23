@@ -1,6 +1,22 @@
 .intro__section {
     background: #003057;
+    background-image: url(/science_square/assets/lines-top.svg);
+    background-repeat: no-repeat;
+    background-position: 894px -532.55px;
     padding-top: 125px;
+    position: relative;
+}
+
+.intro__bg-img {
+    background-image: url(/science_square/assets/lines-bottom.svg);
+    background-position: -50px 370px;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 799.86px;
+    height: 613.55px;
+    z-index: 1;
 }
 
 .intro__container {
@@ -21,12 +37,13 @@
 }
 
 .intro__h2 {
-    font: normal normal bold 40px/43px;
+    font-size: 40px;
+    font-weight: bold;
     margin-bottom: 3px;
 }
 
 .intro__h3 {
-    font: normal normal bold 22px/30px DIN 2014;
+    font: bold 22px "din-2014";
     margin-bottom: 48px;
 }
 
@@ -35,17 +52,29 @@
     width: 597px;
 }
 
+.intro__text {
+    font: normal normal normal 22px/30px "din-2014";
+    letter-spacing: 0.66px;
+}
+
 /* Intro Right */
 .intro__container-column.intro__list-div {
     margin-bottom: 31px;
-    width: 132px;
+    /*     width: 132px; */
     text-align: start;
+    font: normal normal normal 22px/26px "din-2014";
+
 }
 
 .intro__container-column.intro__list-div :first-child {
     font-weight: bold;
 }
 
-.intro_seal-container {
+.intro__seal-container {
+    display: flex;
+    width: 300px;
+}
+
+.intro__seal {
     margin-right: 26px;
 }
