@@ -20,13 +20,51 @@
     margin-bottom: 25px;
 }
 
+/* Floors */
 .ava__floors-list {
     width: 273px;
     height: 435px;
-    background-color: black;
     margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
 }
 
+.ava__floor {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid rgb(125, 203, 255);
+    padding: 0 2px;
+}
+
+.ava__floor:hover {
+    background-color: #496a85;
+}
+
+.ava__floor:last-child {
+    border-bottom: 1px solid rgb(125, 203, 255);
+}
+
+.ava__floor-num {
+    font-size: 1.5rem;
+    width: 60px;
+}
+
+.ava__floor-text {
+    width: 200px;
+}
+
+.ava__floor-icons {
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+
+.ava__floor-icons>img {
+    margin-left: 10px;
+}
+
+/* icons container */
 .ava__icons-container {
     display: flex;
     flex-direction: column;
@@ -36,9 +74,19 @@
     list-style: none;
 }
 
-.ava__icon>img {
-    margin-right: 10px;
+.ava__icon {
+    display: flex;
 }
+
+.ava__icon-img-div {
+    display: flex;
+    width: 20px;
+    height: 100%;
+    margin-right: 10px;
+    margin-bottom: 12px;
+}
+
+.ava__icon-text-div>img {}
 
 .ava__button {
     background: #39BC89;
