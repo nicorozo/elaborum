@@ -1,0 +1,59 @@
+.ava__section {
+    width: 100%;
+    background: #003057;
+    padding-top: 163px;
+}
+
+.ava__container {
+    display: flex;
+}
+
+/* Left */
+.ava__container-left {
+    width: 273.5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ava__h5 {
+    font: normal normal bold 41px/30px "din-2014";
+    margin-bottom: 25px;
+}
+
+.ava__floors-list {
+    width: 273px;
+    height: 435px;
+    background-color: black;
+    margin-bottom: 25px;
+}
+
+.ava__icons-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.ava__icons-container>ul {
+    list-style: none;
+}
+
+.ava__icon>img {
+    margin-right: 10px;
+}
+
+.ava__button {
+    background: #39BC89;
+    width: 213px;
+    height: 38px;
+    border-radius: 100px;
+    border: none;
+}
+
+/* Right  */
+.ava__container-right {
+    width: 100%;
+    margin-left: 135px;
+}
+
+.ava__container-right>img {
+    height: 572.04px;
+}

@@ -5,8 +5,54 @@
     background-position: top;
     background-size: 100% 100%;
     padding-top: 23px;
+    position: relative;
 }
 
+.hero__menu {
+    display: none;
+    background-color: white;
+    width: 30%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    padding: 109px 52px;
+}
+
+/* JS Classes*/
+.hero__menu_active {
+    display: flex;
+    position: absolute;
+}
+
+.hero__header-menu-icon_active {
+    z-index: 99;
+}
+
+.hero__menu-sub-div {
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.hero__menu-logo {
+    margin-bottom: 2rem;
+}
+
+.hero__menu-sub-div>ul {
+    list-style: none;
+}
+
+.hero__menu-li {
+    font: normal normal 300 31px/35px 'Roboto', sans-serif;
+    margin-bottom: 11px;
+}
+
+.hero__menu-li:hover {
+    color: #39BC89;
+    cursor: pointer;
+}
+
+/* Header */
 .hero__header {
     display: flex;
     justify-content: space-between;
