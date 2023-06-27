@@ -34,6 +34,7 @@
 .workplace__button {
     background: #39BC89 0% 0% no-repeat padding-box;
     border-radius: 100px;
+    border: none;
     width: 150px;
     height: 38px;
     margin-right: 16px;

@@ -86,14 +86,16 @@
     margin-bottom: 12px;
 }
 
-.ava__icon-text-div>img {}
-
 .ava__button {
     background: #39BC89;
     width: 213px;
     height: 38px;
     border-radius: 100px;
     border: none;
+}
+
+.ava__button>img {
+    margin-left: 20px;
 }
 
 /* Right  */

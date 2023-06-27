@@ -1,0 +1,28 @@
+.features__section {
+    background: #003057;
+    padding-top: 113px;
+
+}
+
+.features__container {
+    display: flex;
+    width: 100%;
+}
+
+.features__left {
+    padding-left: 19px;
+    padding-top: 16px;
+    margin-right: 68px;
+}
+
+.features__left>h7 {
+    font: normal normal bold 40px/43px "din-2014";
+}
+
+.features__left>p {
+    margin-top: 36px;
+    letter-spacing: 0px;
+    width: 300px;
+    font: normal normal normal 20px/28px "din-2014";
+
+}
