@@ -31,7 +31,6 @@
 }
 
 .features__right_slider-container {
-    border: 2px solid black;
     border-top-left-radius: 250px;
     height: 655px;
     width: 100%;
@@ -50,7 +49,6 @@
 .features__slider-div {
     flex-basis: 100%;
     height: 100%;
-    border: 2px solid red;
 }
 
 .features__slider-img {
@@ -84,4 +82,29 @@
 .features__right>p {
     width: 582px;
     font: normal normal normal 14px/18px "din-2014";
+}
+
+.features__callouts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.features__callouts-collumn {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 190px;
+}
+
+.features__callouts-row {
+    display: flex;
+    font: normal normal normal 20px/32px "din-2014";
+}
+
+
+.features__callouts span {
+    color: #37F0A8;
+    margin-right: 20px;
 }
