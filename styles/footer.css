@@ -1,0 +1,48 @@
+.footer {
+    background: #003057;
+    padding-top: 72px;
+    padding-right: 139px;
+}
+
+.footer__upper-section {
+    display: flex;
+    border-bottom: 1px solid white;
+    padding-bottom: 33px;
+}
+
+.footer__upper-left {
+    flex: 1;
+    flex-direction: column;
+}
+
+.footer__upper-left-div {
+    margin-top: 94px;
+}
+
+.footer__upper-left-div>button {
+    background: #39BC89 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    border: none;
+    width: 122px;
+    height: 38px;
+    margin-right: 23px;
+}
+
+.footer__upper-left-div img {
+    margin-right: 12px;
+}
+
+.footer__upper-right {
+    flex: 1;
+}
+
+.footer__lower-section {
+    padding: 41px 0;
+    display: flex;
+
+}
+
+.footer__lower-section img {
+    width: auto;
+    flex: auto;
+}
