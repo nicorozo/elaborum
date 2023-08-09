@@ -8,7 +8,7 @@
 }
 
 .portal__bg-div {
-    background-image: url(../assets/lines.svg);
+    background-image: url(/science_square/assets/lines.svg);
     background-repeat: no-repeat;
     background-position: 528px -371px;
     background-size: 650px;
@@ -22,7 +22,7 @@
 
 .portal__img-container {
     background-image: linear-gradient(to top, rgb(0, 48, 87) 2%, rgba(189, 0, 0, 0) 30%),
-        url(../assets/portal-innovations-hero.jpg);
+        url(/science_square/assets/portal-innovations-hero.jpg);
     background-size: 140%;
     background-position: -320px 0px;
     background-repeat: no-repeat;

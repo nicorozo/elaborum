@@ -10,7 +10,7 @@
 }
 
 .workplace__bg-lines-div {
-    background-image: url(/science_square/assets/lines.svg);
+    background-image: url(../assets/lines.svg);
     background-position: 72px 0;
     background-repeat: no-repeat;
     width: 622.29px;
@@ -47,7 +47,7 @@
 
 .workplace__img-container {
     background-image: linear-gradient(to top, rgb(0, 48, 87) 2%, rgba(189, 0, 0, 0) 30%),
-        url(../assets/lab-creative-office-space-hero.jpg);
+        url(/science_square/assets/lab-creative-office-space-hero.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: bottom;
