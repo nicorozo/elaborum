@@ -1,6 +1,6 @@
 .intro__wrapper {
     background: #003057;
-    background-image: url(/assets/lines-top.svg);
+    background-image: url(../assets/lines-top.svg);
     background-repeat: no-repeat;
     background-position: 1200px -500px;
 }
@@ -13,7 +13,7 @@
 }
 
 .intro__bg-img {
-    background-image: url(/assets/lines.svg);
+    background-image: url(../assets/lines.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;

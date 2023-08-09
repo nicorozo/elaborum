@@ -47,7 +47,7 @@
 
 .workplace__img-container {
     background-image: linear-gradient(to top, rgb(0, 48, 87) 2%, rgba(189, 0, 0, 0) 30%),
-        url(/assets/lab-creative-office-space-hero.jpg);
+        url(../assets/lab-creative-office-space-hero.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: bottom;
