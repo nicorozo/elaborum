@@ -39,6 +39,7 @@
 /* Intro Left  */
 
 .intro__container-column.intro__left {
+    transform: translateX(-80vw);
     margin-right: 139px;
 }
 
@@ -81,6 +82,20 @@
     width: 300px;
 }
 
+.intro__seal-div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
 .intro__seal {
-    margin-right: 26px;
+    fill: white;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 200,
+        'GRAD' 0,
+        'opsz' 48
 }

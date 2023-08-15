@@ -9,6 +9,10 @@
     position: relative;
 }
 
+.workplace__text-container {
+    transform: translateY(30vh);
+}
+
 .workplace__bg-lines-div {
     background-image: url(../assets/lines.svg);
     background-position: 72px 0;
@@ -47,7 +51,7 @@
 
 .workplace__img-container {
     background-image: linear-gradient(to top, rgb(0, 48, 87) 2%, rgba(189, 0, 0, 0) 30%),
-        url(/science_square/assets/lab-creative-office-space-hero.jpg);
+        url(https://as1.ftcdn.net/v2/jpg/04/47/69/30/1000_F_447693017_txdAbK0uPbtM5oo5AIPVyXnFe4H9Rt22.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: bottom;

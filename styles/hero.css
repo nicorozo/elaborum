@@ -1,8 +1,8 @@
 .hero__wrapper {
     background:
         linear-gradient(rgba(0, 0, 0, 0.2),
-            rgba(0, 0, 0, 0.2)), url(../assets/01\ Hero/hero.jpg);
-    background-position: top;
+            rgba(0, 0, 0, 0.2)), url(https://as2.ftcdn.net/v2/jpg/02/74/21/75/1000_F_274217558_ZCxDcs2EOwdGZUTMtYWHOWt44Z5HtOkJ.jpg);
+    background-position: center;
     background-size: cover;
 }
 
@@ -19,7 +19,7 @@
     width: 30%;
     height: 100vh;
     top: 0;
-    right: 0;
+    right: 300px;
     padding: 109px 52px;
 }
 
@@ -27,6 +27,9 @@
 .hero__menu_active {
     display: flex;
     position: absolute;
+    top: 0;
+    right: 0;
+    transition: opacity 0.5s, right 0.5s;
 }
 
 .hero__header-menu-icon_active {
@@ -62,6 +65,10 @@
     display: flex;
     justify-content: space-between;
     margin-right: 30px;
+}
+
+.hero__header-logo {
+    height: 60px;
 }
 
 .hero__h1-container {
