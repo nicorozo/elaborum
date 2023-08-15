@@ -1,8 +1,8 @@
-# science_square
+# Elaborum Website
 
 This is a website built to practice BEM Methodology, JS and CSS.
 
-<a href="https://nicorozo.github.io/science_square/">Check it live.</a>
+<a href="https://nicorozo.github.io//">Check it live.</a>
 
 <h2>Tehnologies I Used</h2>
 <ul>
